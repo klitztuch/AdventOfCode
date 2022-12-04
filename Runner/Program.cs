@@ -61,7 +61,7 @@ public class Program
 
         System.Console.WriteLine("Part 1");
         // var inputfile = GetInputFilename(typeof(Year2022.Day1.Part1));
-        const string inputfile = "Inputfiles/2022/year2022_day1_part1.txt";
+        string inputfile = "Inputfiles/2022/year2022_day1.txt";
         var input = Year2022.Day1.Helper.File2StringArray(inputfile);
         var result = Year2022.Day1.Part1.Calculate(input);
         System.Console.WriteLine(result);
@@ -77,6 +77,16 @@ public class Program
 
         #endregion
 
+        #endregion
+        #region Day2
+        System.Console.WriteLine("Day 2");
+        #region Part1
+        System.Console.WriteLine("Part 1");
+        inputfile = "Inputfiles/2022/year2022_day2.txt";
+        var moves = Year2022.Day2.Helper.File2Moves(inputfile);
+        result = Year2022.Day2.Part1.Calculate(moves);
+        System.Console.WriteLine(result);
+        #endregion
         #endregion
     }
 
