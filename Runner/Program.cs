@@ -87,6 +87,11 @@ public class Program
         result = Year2022.Day2.Part1.Calculate(moves);
         System.Console.WriteLine(result);
         #endregion
+        #region Part2
+        System.Console.WriteLine("Part 2");
+        result = Year2022.Day2.Part2.Calculate(moves);
+        System.Console.WriteLine(result);
+        #endregion
         #endregion
     }
 

@@ -4,4 +4,5 @@ public class Move
 {
     public OpponentMove OpponentMove { get; set; }
     public OwnMove OwnMove { get; set; }
+    public RoundEnd RoundEnd { get; set; }
 }

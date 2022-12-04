@@ -12,10 +12,12 @@ public static class Helper
             var splitMove = move.ToCharArray();
             var opponentMove = (OpponentMove)splitMove[0];
             var ownMove = (OwnMove)splitMove[2];
+            var roundEnd = (RoundEnd)splitMove[2];
             moves.Add(new Move()
             {
                 OpponentMove = opponentMove,
-                OwnMove = ownMove
+                OwnMove = ownMove,
+                RoundEnd = roundEnd
             });
         }
         return moves.ToArray();
