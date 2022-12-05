@@ -93,6 +93,17 @@ public class Program
         System.Console.WriteLine(result);
         #endregion
         #endregion
+
+        #region Day3
+        System.Console.WriteLine("Day 3");
+        #region Part1
+        System.Console.WriteLine("Part 1");
+        inputfile = "Inputfiles/2022/year2022_day3.txt";
+        input = Year2022.Day3.Helper.File2StringArray(inputfile);
+        result = Year2022.Day3.Part1.Calculate(input);
+        System.Console.WriteLine(result);
+        #endregion
+        #endregion
     }
 
     private static string GetInputFilename(Type type)
