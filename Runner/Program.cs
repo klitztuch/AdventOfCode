@@ -103,6 +103,11 @@ public class Program
         result = Year2022.Day3.Part1.Calculate(input);
         System.Console.WriteLine(result);
         #endregion
+        #region Part2
+        System.Console.WriteLine("Part 2");
+        result = Year2022.Day3.Part2.Calculate(input);
+        System.Console.WriteLine(result);
+        #endregion
         #endregion
     }
 
