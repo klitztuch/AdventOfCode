@@ -24,5 +24,6 @@
     <ProjectReference Include="..\2022\Year2022.Day1\Year2022.Day1.csproj" />
     <ProjectReference Include="..\2022\Year2022.Day2\Year2022.Day2.csproj" />
     <ProjectReference Include="..\2022\Year2022.Day3\Year2022.Day3.csproj" />
+    <ProjectReference Include="..\2022\Year2022.Day4\Year2022.Day4.csproj" />
   </ItemGroup>
 </Project>

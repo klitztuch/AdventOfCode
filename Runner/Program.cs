@@ -109,6 +109,22 @@ public class Program
         System.Console.WriteLine(result);
         #endregion
         #endregion
+
+        #region Day4
+        System.Console.WriteLine("Day 4");
+        #region Part1
+        System.Console.WriteLine("Part 1");
+        inputfile = "Inputfiles/2022/year2022_day4.txt";
+        var day4Input = Year2022.Day4.Helper.File2EnumerableTuples(inputfile);
+        result = Year2022.Day4.Part1.Calculate(day4Input);
+        System.Console.WriteLine(result);
+        #endregion
+        #region Part2
+        // System.Console.WriteLine("Part 2");
+        // result = Year2022.Day4.Part2.Calculate(day4Input);
+        // System.Console.WriteLine(result);
+        #endregion
+        #endregion
     }
 
     private static string GetInputFilename(Type type)
