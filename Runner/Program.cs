@@ -120,9 +120,9 @@ public class Program
         System.Console.WriteLine(result);
         #endregion
         #region Part2
-        // System.Console.WriteLine("Part 2");
-        // result = Year2022.Day4.Part2.Calculate(day4Input);
-        // System.Console.WriteLine(result);
+        System.Console.WriteLine("Part 2");
+        result = Year2022.Day4.Part2.Calculate(day4Input);
+        System.Console.WriteLine(result);
         #endregion
         #endregion
     }
